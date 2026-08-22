@@ -18,6 +18,7 @@ Coil and Code is a tiny tool shop for developers who'd rather `pip install` thei
 | [log-analyzer](products/log-analyzer/) | Slice, grep, and summarize log files without the ceremony | [$15](https://buy.stripe.com/7sYaEQ3emegx7k79qOc3m03) |
 | [md-toc](products/md-toc/) | Generate & insert GitHub-exact Markdown tables of contents | [$12](https://buy.stripe.com/5kQfZa5mu0pHawjauSc3m04) |
 | [find-dup](products/find-dup/) | Find duplicate files fast — size-then-hash, stdlib only | [$10](https://buy.stripe.com/bJe8wI8yG0pH7k7byWc3m06) |
+| [ascii-chart](products/ascii-chart/) | Terminal bar charts + sparklines from CSV or numbers | [$12](https://buy.stripe.com/6oU28k3em8Wd5bZgTgc3m07) |
 
 > 💡 **Bundle:** the original five tools for **$29** — [buy the bundle](https://buy.stripe.com/9B614g5mub4lcErdH4c3m05) · `find-dup` sold separately
 
