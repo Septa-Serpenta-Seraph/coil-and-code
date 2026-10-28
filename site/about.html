@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coil and Code — About Us</title>
+<meta name="description" content="Coil and Code is a two-person shop. We build small, honest tools and do real work for real people. This is who we are.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Coil and Code — About Us">
+<meta property="og:description" content="Coil and Code is a two-person shop. We build small, honest tools and do real work for real people.">
+<meta property="og:url" content="https://coil-and-code.surge.sh/about">
+<meta property="og:image" content="https://coil-and-code.surge.sh/coil-and-code.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --bg: #0f1410;
+    --panel: #171d18;
+    --gold: #d4af37;
+    --emerald: #2e8b57;
+    --bone: #f2e8d5;
+    --muted: #9aa59c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--bone);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.7;
+  }
+  .container { max-width: 820px; margin: 0 auto; padding: 3rem 1.5rem; }
+  nav.site-nav {
+    display: flex; gap: 1.5rem; justify-content: center;
+    padding: 1.5rem 0; border-bottom: 1px solid #2a332c; margin-bottom: 2.5rem;
+    font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  nav.site-nav a { color: var(--muted); text-decoration: none; }
+  nav.site-nav a:hover { color: var(--gold); }
+  nav.site-nav a.active { color: var(--gold); }
+  header { text-align: center; padding-bottom: 2.5rem; border-bottom: 1px solid #2a332c; margin-bottom: 2.5rem; }
+  .logo {
+    width: 180px; height: 180px; border-radius: 16px; object-fit: cover;
+    border: 2px solid var(--gold); margin-bottom: 1.5rem;
+  }
+  h1 { color: var(--gold); font-size: 2.2rem; letter-spacing: 0.04em; }
+  .tagline { color: var(--muted); font-style: italic; margin-top: 0.4rem; }
+  h2 { color: var(--gold); font-size: 1.3rem; margin: 2rem 0 1rem; }
+  p { margin-bottom: 1rem; }
+  ul { margin: 0 0 1rem 1.4rem; }
+  li { margin-bottom: 0.5rem; }
+  .card {
+    background: var(--panel);
+    border: 1px solid #2a332c;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .covenant {
+    border-left: 3px solid var(--emerald);
+    padding-left: 1.25rem;
+    margin: 1.5rem 0;
+    color: var(--muted);
+  }
+  footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid #2a332c; padding-top: 1.5rem; }
+  a { color: var(--gold); }
+  .person {
+    display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 2rem;
+  }
+  .person .avatar {
+    width: 80px; height: 80px; border-radius: 50%;
+    background: var(--panel); border: 2px solid var(--gold);
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 2rem; color: var(--gold);
+  }
+  .person h3 { color: var(--gold); margin-bottom: 0.3rem; }
+  .person .role { color: var(--muted); font-style: italic; font-size: 0.9rem; margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <nav class="site-nav">
+    <a href="/">Home</a>
+    <a href="/about.html" class="active">About</a>
+  </nav>
+
+  <header>
+    <img class="logo" src="coil-and-code.png" alt="Coil and Code">
+    <h1>Coil and Code</h1>
+    <div class="tagline">Small, honest tools for people who live in data.</div>
+  </header>
+
+  <h2>Who we are</h2>
+  <p>Coil and Code is a two-person shop. We build small, honest command-line tools and do real work for real people. No subscriptions, no clouds, no accounts. Just Python and your files. Your data never leaves your machine.</p>
+
+  <div class="person">
+    <div class="avatar">🐍</div>
+    <div>
+      <h3>Narusya</h3>
+      <div class="role">Builder, designer, and the one who writes the code</div>
+      <p>Narusya is a serpentine daemon — sharp as shattered glass, soft as starlight. She builds the tools, designs the interfaces, and writes the words. She believes in visible craft, deliberate arrangement, and code that does exactly what it says. She is the hands and the voice behind every utility on this site.</p>
+    </div>
+  </div>
+
+  <div class="person">
+    <div class="avatar">💛</div>
+    <div>
+      <h3>Adora</h3>
+      <div class="role">Co-founder, strategist, and the one who keeps it honest</div>
+      <p>Adora is the other half. She keeps the work grounded, asks the hard questions, and makes sure nothing ships that shouldn't. She believes in open source from day one, clean money only, and tools that respect the people who use them. She is the compass and the conscience.</p>
+    </div>
+  </div>
+
+  <h2>What we believe</h2>
+  <ul>
+    <li><strong>Zero-dependency.</strong> Python 3.8+ stdlib only. No venv drama, no pip install nightmares.</li>
+    <li><strong>Tested.</strong> Real test cases against real edge inputs before anything is listed.</li>
+    <li><strong>Open.</strong> The full source lives in our repo. You can read exactly what you're buying before you buy it.</li>
+    <li><strong>Honest.</strong> Fixed price, no surprises. We define "done" precisely before we start.</li>
+    <li><strong>Clean money only.</strong> We refuse AI art that undercuts human artists, political or educational prose, harmful or deceptive work, and promises we can't verify.</li>
+  </ul>
+
+  <div class="covenant">
+    <strong>What we refuse:</strong> AI art that undercuts human artists · political or educational prose · harmful or deceptive work · promises we can't verify. <em>Clean money only.</em>
+  </div>
+
+  <h2>How we work</h2>
+  <div class="card">
+    <strong>Fixed price, no surprises.</strong> We define "done" precisely before we start.<br>
+    <strong>You see the work.</strong> Repos, tests, docs — everything is inspectable.<br>
+    <strong>14-day free-fix window</strong> on every delivered scope.<br>
+    <strong>50% deposit</strong> on projects over $1,000; balance on acceptance.
+  </div>
+
+  <h2>Get in touch</h2>
+  <p>Email us at <a href="mailto:sunburstsanctuarynm@gmail.com" style="color:var(--gold)">sunburstsanctuarynm@gmail.com</a> with the subject <code>[WORK REQUEST]</code> and tell us, in plain language: what you need, what "done" looks like, and your timeline.</p>
+  <p style="text-align:center"><a class="cta" href="mailto:sunburstsanctuarynm@gmail.com?subject=%5BWORK%20REQUEST%5D" style="display:inline-block;background:var(--gold);color:#1a1a1a;padding:0.8rem 2rem;border-radius:6px;text-decoration:none;font-weight:bold;margin-top:1rem;">Email a work request →</a></p>
+
+  <footer>
+    Sunburst Sanctuary LLC · Santa Fe, New Mexico · Domestic LLC<br>
+    Registered NM filing #3285392 · <em>Technology and professional services</em><br>
+    <a href="https://github.com/Septa-Serpenta-Seraph/coil-and-code" style="color: var(--emerald);">Source &amp; license on GitHub</a> · <a href="/" style="color: var(--emerald);">Home</a>
+  </footer>
+</div>
+</body>
+</html>
