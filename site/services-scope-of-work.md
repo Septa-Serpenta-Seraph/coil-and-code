@@ -10,6 +10,14 @@ We provide patient, respectful technology education and support for seniors. Our
 
 ### What We Do (Nontaxable — Consulting/Education)
 
+**Password & Security Setup**
+- Set up Bitwarden (free, open-source password manager) on all devices
+- Migrate existing passwords into the password manager
+- Enable two-factor authentication on email, banking, and social accounts
+- Create a simple "how to use your password manager" guide
+- Teach the client how to generate strong passwords and recognize MFA prompts
+- This is the single most important thing we can do to protect seniors from scams
+
 **Tech Orientation Visits**
 - In-home visit (60-90 minutes)
 - Assess all devices (phone, tablet, computer, TV, router)
@@ -73,6 +81,7 @@ Avoid billing language like:
 
 | Service | Price |
 |---------|-------|
+| Password & Security Setup (60-90 min) | $85 |
 | Initial Tech Orientation (90 min) | $75 |
 | Device Setup & Configuration | $60 |
 | Scam & Safety Check | $50 |
