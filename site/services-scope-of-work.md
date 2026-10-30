@@ -61,6 +61,29 @@ We provide patient, respectful technology education and support for seniors. Our
 - We do NOT remote-access devices without explicit verbal consent during the session
 - We do NOT make purchases on behalf of clients
 
+### Health & Safety Policy
+
+**Worker Vaccination Requirements**
+- All technicians must provide proof of current flu vaccination (updated annually, October-November)
+- All technicians must provide proof of current COVID-19 vaccination (including recommended boosters)
+- Proof is verified by the secretary at time of hire and re-verified annually
+- Technicians who are not up to date will not be scheduled for in-home visits
+- Medical exemptions handled case-by-case with alternative precautions
+
+**Masking Policy**
+- All technicians carry masks and will wear one upon client request
+- Mask preference is queried during appointment booking by the secretary
+- Clients can request masking at any time during a visit
+- Technicians will also mask if they have any respiratory symptoms
+- Mask preference is noted in client file and respected for all future visits
+
+**General Safety**
+- Technicians do not enter homes where they feel unsafe
+- Technicians carry a phone at all times during visits
+- Emergency contacts are on file for both client and technician
+- Visits are scheduled during daylight hours when possible
+- Technicians report any concerns (hoarding, neglect, abuse) to appropriate authorities
+
 ### Billing Language (TX Sales Tax Compliance)
 
 All services are billed as **"Technology Consulting & Education"** — not as data processing, data entry, or software installation. This classification keeps services nontaxable under Texas Tax Code Rule 3.330.

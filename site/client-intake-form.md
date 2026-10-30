@@ -53,6 +53,13 @@ List all devices you use regularly:
 - [ ] I've been a victim of a scam before
 - [ ] None of the above
 
+### Health & Safety Preferences
+- [ ] I would like the technician to wear a mask during the visit
+- [ ] I have no mask preference
+- [ ] I prefer visits outdoors or in well-ventilated areas
+- [ ] I have a respiratory condition (details: ________________________________)
+- [ ] Other health considerations: ________________________________
+
 ### Consent & Acknowledgment
 
 By signing below, I acknowledge:
@@ -64,6 +71,8 @@ By signing below, I acknowledge:
 5. They may log visit details (date, services performed, recommendations made) for quality and liability purposes.
 6. They may photograph device screens (with my consent) for documentation purposes.
 7. I understand that in-home visits are at my own risk and I am responsible for my own safety and property.
+8. Sunburst Sanctuary technicians are required to provide proof of current flu and COVID-19 vaccinations.
+9. Masking preference will be honored — technicians carry masks and will wear one upon request.
 
 **Client signature:** ________________________________ **Date:** ______________
 
