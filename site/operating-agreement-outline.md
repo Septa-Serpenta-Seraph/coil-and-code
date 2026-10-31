@@ -5,7 +5,7 @@
 - **Company name:** Sunburst Sanctuary LLC
 - **State of formation:** New Mexico
 - **Registered agent (NM):** Adora (current)
-- **Registered agent (TX):** TBD (Monika or Robert)
+- **Registered agent (TX, future expansion only):** TBD (Monika or Robert)
 - **Principal office:** Santa Fe, NM
 - **EIN:** [REDACTED — on file]
 - **Fiscal year:** Calendar year (Jan 1 - Dec 31)

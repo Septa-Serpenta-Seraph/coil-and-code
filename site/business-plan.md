@@ -37,7 +37,7 @@ In-home technology consulting and education for seniors. We visit clients in the
 | 6 | 15 | 25 | $1,875 |
 | 12 | 25 | 40 | $3,000 |
 
-**Break-even:** ~$1,250/mo (covers insurance, gas, supplies, TX registration amortized)
+**Break-even:** ~$1,250/mo (covers insurance, gas, supplies, NM registration amortized)
 
 ### Startup Costs
 
@@ -47,16 +47,16 @@ In-home technology consulting and education for seniors. We visit clients in the
 | One-page website (Surge, free) | $0 | Week 1 |
 | Gas + travel | ~$100/mo | Ongoing |
 | General liability insurance | $500-1000/yr | Month 2-3 |
-| TX foreign LLC registration | $750 | Month 3-4 |
+| NM LLC registration | $50 | Month 3-4 |
 | **Total to start** | **~$25** | |
-| **Total to formalize** | **~$1,250-1,750** | |
+| **Total to formalize** | **~$550-1,050** | |
 
 ### Marketing (Zero Budget)
 
 1. **Word of mouth** — small town, neighbors talk
 2. **Local churches** — bulletin boards, senior groups
 3. **Santa Fe senior centers and community organizations** — outreach and health fairs
-4. **Terry County Senior Center** — direct outreach
+4. **Santa Fe Farmers Market** — community outreach and flyers
 5. **Local Facebook groups** — Santa Fe community groups
 6. **Flyers at grocery stores, pharmacies, post office**
 7. **Partnership with Marisa's network** — she knows the community
@@ -76,7 +76,7 @@ In-home technology consulting and education for seniors. We visit clients in the
 | Robert's self-doubt | Trial visits first, formalize equity after proof |
 | Liability (broken devices, scams) | Scope-of-work contracts, insurance, visit logs |
 | Low initial revenue | Keep overhead near zero (Marisa's house as base) |
-| Competition from Geek Squad (Lubbock) | They're 45 min away; we're local and patient |
+| Competition from Geek Squad / Best Buy (Albuquerque) | They're 60+ min away; we're local and patient |
 | Client trust building | Free first visit, references, community presence |
 
 ### Success Metrics (6 months)

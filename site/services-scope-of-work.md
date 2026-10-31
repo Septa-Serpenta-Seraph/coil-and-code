@@ -84,9 +84,9 @@ We provide patient, respectful technology education and support for seniors. Our
 - Visits are scheduled during daylight hours when possible
 - Technicians report any concerns (hoarding, neglect, abuse) to appropriate authorities
 
-### Billing Language (TX Sales Tax Compliance)
+### Billing Language (NM GRT Compliance)
 
-All services are billed as **"Technology Consulting & Education"** — not as data processing, data entry, or software installation. This classification keeps services nontaxable under Texas Tax Code Rule 3.330.
+All services are billed as **"Technology Consulting & Education"** — not as data processing, data entry, or software installation. This classification is used for New Mexico Gross Receipts Tax (GRT) reporting. Consult a tax professional to confirm whether your specific services qualify for any available deductions.
 
 Invoice line items should use language like:
 - "Technology consulting visit — 90 minutes"
