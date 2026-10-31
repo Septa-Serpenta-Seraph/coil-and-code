@@ -80,4 +80,4 @@ By signing below, I acknowledge:
 
 ---
 *Sunburst Sanctuary LLC — Technology consulting and professional services*
-*Santa Fe, NM · Expanding to Brownfield, TX*
+*Santa Fe, NM*

@@ -7,7 +7,7 @@ Sunburst Sanctuary LLC ("Company") and Robert ("Contributor")
 ### Robert's Role: Tech Lead & Service Delivery
 
 Robert agrees to provide the following services to the Company:
-1. In-home technology support visits for elderly clients in Brownfield, TX and surrounding areas
+1. In-home technology support visits for elderly clients in Santa Fe, NM and surrounding areas
 2. Device setup, configuration, and troubleshooting
 3. Scam awareness and digital safety training
 4. Client education and training

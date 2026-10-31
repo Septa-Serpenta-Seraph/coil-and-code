@@ -3,7 +3,7 @@
 
 ### Company
 Sunburst Sanctuary LLC — Santa Fe, New Mexico
-Registered in NM, expanding to Brownfield, TX (Terry County)
+Registered in NM
 
 ### Service Philosophy
 We provide patient, respectful technology education and support for seniors. Our goal is to help older adults feel confident and safe using their devices. We never rush. We never make people feel stupid. We explain everything in plain language.
@@ -126,4 +126,4 @@ By engaging our services, the client acknowledges:
 
 ---
 *Sunburst Sanctuary LLC — Technology consulting and professional services*
-*Santa Fe, NM · Expanding to Brownfield, TX*
+*Santa Fe, NM*

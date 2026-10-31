@@ -6,7 +6,7 @@
 - **State of formation:** New Mexico
 - **Registered agent (NM):** Adora (current)
 - **Registered agent (TX):** TBD (Monika or Robert)
-- **Principal office:** Santa Fe, NM (current); Brownfield, TX (expansion)
+- **Principal office:** Santa Fe, NM
 - **EIN:** [REDACTED — on file]
 - **Fiscal year:** Calendar year (Jan 1 - Dec 31)
 
@@ -57,7 +57,7 @@ If Robert leaves before full vesting, unvested equity returns to the company. Ve
 - Vested equity is subject to company buyout at fair market value
 - Valuation method: 2x annual revenue (or agreed-upon method)
 - Payment over 12-24 months (not lump sum)
-- Non-compete: 12 months within 50 miles of Brownfield, TX
+- Non-compete: 12 months within 50 miles of Santa Fe, NM
 
 **If a member is removed for cause:**
 - Unvested equity forfeited immediately
@@ -71,7 +71,7 @@ If Robert leaves before full vesting, unvested equity returns to the company. Ve
 
 ### Article 7: Texas Expansion
 
-- Brownfield, TX operations conducted under the NM LLC (foreign registration required)
+- Operations conducted under the NM LLC
 - TX registered agent: [TBD — Monika or Robert]
 - TX franchise tax: filed annually (no tax due under $1.23M revenue, but filing required)
 - All client agreements governed by TX law for TX clients

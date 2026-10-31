@@ -1,8 +1,8 @@
-# Sunburst Sanctuary LLC — Brownfield, TX Expansion
+# Sunburst Sanctuary LLC — Business Plan
 ## One-Page Business Plan
 
 ### The Opportunity
-Brownfield, TX (Terry County, pop. ~10K) is a rural West Texas community with an aging population and no local technology support services. Residents currently drive 45+ minutes to Lubbock for basic tech help, or rely on family members who may not have the time or patience. Scam targeting of elderly residents is high and growing.
+Santa Fe, NM is home to a large population of seniors who need patient, in-home technology support. Many live alone, struggle with devices, and are vulnerable to scams. Existing options are impersonal, rushed, or require driving to a store. Sunburst Sanctuary brings the help to them.
 
 ### The Service
 In-home technology consulting and education for seniors. We visit clients in their homes, assess their devices, fix what's broken, teach them how to use what they have, and help them stay safe online. No jargon. No rushing. No making people feel stupid.
@@ -55,9 +55,9 @@ In-home technology consulting and education for seniors. We visit clients in the
 
 1. **Word of mouth** — small town, neighbors talk
 2. **Local churches** — bulletin boards, senior groups
-3. **Brownfield Regional Medical Center** — senior health fairs
+3. **Santa Fe senior centers and community organizations** — outreach and health fairs
 4. **Terry County Senior Center** — direct outreach
-5. **Local Facebook groups** — "Brownfield community" groups
+5. **Local Facebook groups** — Santa Fe community groups
 6. **Flyers at grocery stores, pharmacies, post office**
 7. **Partnership with Marisa's network** — she knows the community
 
@@ -89,4 +89,4 @@ In-home technology consulting and education for seniors. We visit clients in the
 
 ---
 *Sunburst Sanctuary LLC — Technology consulting and professional services*
-*Santa Fe, NM · Expanding to Brownfield, TX*
+Santa Fe, NM

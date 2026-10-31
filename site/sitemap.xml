@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Work With Us — Sunburst Sanctuary LLC</title>
-<meta name="description" content="Join Sunburst Sanctuary. We're hiring patient, respectful tech support workers for our elderly clientele in Santa Fe, NM and Brownfield, TX.">
+<meta name="description" content="Join Sunburst Sanctuary. We're hiring patient, respectful tech support workers for our elderly clientele in Santa Fe, NM.">
 <style>
   :root {
     --bg: #0a0f0d;
@@ -190,7 +190,7 @@
 <div class="role-card">
   <h3>Technology Support Technician</h3>
   <span class="tag">Santa Fe, NM</span>
-  <span class="tag">Brownfield, TX</span>
+  <span class="tag"></span>
   <span class="tag">Part-time / Contract</span>
   <p>Visit seniors in their homes. Help them with phones, tablets, computers, WiFi, passwords, and scams. You're not just fixing things — you're teaching. Patience is the job.</p>
   <h4>What You'll Do</h4>
@@ -317,7 +317,7 @@
 </div>
 
 <footer>
-  <p>Sunburst Sanctuary LLC — Santa Fe, NM · Brownfield, TX</p>
+  <p>Sunburst Sanctuary LLC — Santa Fe, NM · </p>
   <p>Technology consulting and professional services</p>
 </footer>
 
