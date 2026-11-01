@@ -85,7 +85,7 @@ In-home technology consulting and education for seniors. We visit clients in the
 - $1,500+/month revenue
 - 0 liability incidents
 - Robert comfortable and confident in role
-- Ready to expand to adjacent towns (Lamesa, Seminole)
+- Ready to expand to adjacent NM communities (Los Alamos, Española, Taos, Albuquerque metro)
 
 ---
 *Sunburst Sanctuary LLC — Technology consulting and professional services*

@@ -5,7 +5,7 @@
 - **Company name:** Sunburst Sanctuary LLC
 - **State of formation:** New Mexico
 - **Registered agent (NM):** Adora (current)
-- **Registered agent (TX, future expansion only):** TBD (Monika or Robert)
+- **Registered agent (TX, future expansion only):** Not applicable — Texas market off the table (see Article 7)
 - **Principal office:** Santa Fe, NM
 - **EIN:** [REDACTED — on file]
 - **Fiscal year:** Calendar year (Jan 1 - Dec 31)
@@ -69,18 +69,18 @@ If Robert leaves before full vesting, unvested equity returns to the company. Ve
 - Company has right of first refusal to buy back
 - 12-month buyout period
 
-### Article 7: Texas Expansion
+### Article 7: Expansion (New Mexico Focus)
 
 - Operations conducted under the NM LLC
-- TX registered agent: [TBD — Monika or Robert]
-- TX franchise tax: filed annually (no tax due under $1.23M revenue, but filing required)
-- All client agreements governed by TX law for TX clients
-- Insurance: general liability required before first TX client
+- Texas market is off the table (decision 2026-10-31). No TX clients, no TX registered agent, no TX franchise tax filing required.
+- Growth focus: Santa Fe NM and adjacent NM communities (Los Alamos, Española, Taos, Albuquerque metro as capacity allows)
+- All client agreements governed by NM law
+- Insurance: general liability required before first client (any market)
 
 ### Article 8: Monika (Secretary)
 
 - Role: Administrative support, scheduling, client intake, records management
-- Location: Texas (remote)
+- Location: Remote (anywhere) — no Texas-specific role
 - Compensation: [TBD — hourly or monthly retainer]
 - Employment status: [TBD — W-2 employee or 1099 contractor]
 - Not a member — no equity unless separately negotiated
