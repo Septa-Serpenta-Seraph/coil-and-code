@@ -39,7 +39,7 @@ def slugify(text):
     return lowered
 
 
-def extract_headings(lines):
+def extract_headings(lines, respect_front=True):
     """Return [(level, text, anchor)] for markdown headings outside code fences."""
     headings = []
     in_fence = False
@@ -51,7 +51,7 @@ def extract_headings(lines):
     for line in lines:
         stripped = line.rstrip("\n")
         # YAML front matter: skip lines between leading --- pairs
-        if not front_checked:
+        if respect_front and not front_checked:
             if SMART_FRONT_PATTERN.match(stripped):
                 in_front = not in_front
                 if not in_front:
@@ -118,7 +118,7 @@ def parse_args(argv=None):
     return p.parse_args(argv)
 
 
-def insert_toc(path, toc_lines, heading_lines):
+def insert_toc(path, toc_lines, heading_lines, respect_front=True):
     """Insert TOC after the first top-level heading (or after title)."""
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
@@ -131,12 +131,12 @@ def insert_toc(path, toc_lines, heading_lines):
     in_front = False
     for i, line in enumerate(lines):
         stripped = line.rstrip("\n")
-        if SMART_FRONT_PATTERN.match(stripped):
+        if respect_front and SMART_FRONT_PATTERN.match(stripped):
             in_front = not in_front
             if not in_front:
                 front_checked = True
             continue
-        if in_front:
+        if respect_front and in_front:
             continue
         m = HEADING_RE.match(stripped)
         if m and len(m.group(1)) == 1:
@@ -181,7 +181,7 @@ def main(argv=None):
             any_error = True
             continue
 
-        headings = list(extract_headings(lines))
+        headings = list(extract_headings(lines, args.respect_front))
         if args.as_json:
             payload = [
                 {"level": lv, "text": tx, "anchor": a}
@@ -195,7 +195,7 @@ def main(argv=None):
             toc = build_toc(headings, args.max_depth)
             if args.insert:
                 try:
-                    insert_toc(path, "\n".join(toc), headings)
+                    insert_toc(path, "\n".join(toc), headings, args.respect_front)
                     print(f"md-toc: inserted {len(toc)} entries into {path}")
                 except OSError as e:
                     print(f"md-toc: {path}: {e}", file=sys.stderr)

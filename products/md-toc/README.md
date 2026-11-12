@@ -38,6 +38,9 @@ md-toc API.md --insert
 
 # machine-readable (for scripts / CI)
 md-toc CHANGELOG.md --json
+
+# treat YAML front matter as content instead of skipping it
+md-toc odd-file.md --no-front-matter
 ```
 
 The `--insert` mode is idempotent: re-running it replaces the previous
@@ -46,7 +49,7 @@ duplicating.
 
 ## What it skips
 
-- YAML front matter (`---`)
+- YAML front matter (`---`) — pass `--no-front-matter` to parse it as content instead
 - headings inside ```code fences```
 - indented code blocks
 
