@@ -8,12 +8,12 @@
 <meta name="description" content="Small, honest command-line tools for real work. CSV reports, log analysis, JSON-to-Markdown, CSV merging, Markdown tables of contents, duplicate-file finder, terminal charts. Source included, MIT licensed, tested before listing.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Coil and Code — small, honest tools">
-<meta property="og:description" content="Small, honest command-line tools for real work. CSV reports, log analysis, JSON-to-Markdown, CSV merging. Tested, documented, MIT licensed.">
+<meta property="og:description" content="Small, honest command-line tools for real work. CSV reports, log analysis, JSON-to-Markdown, CSV merging, Markdown tables of contents, duplicate-file finder, terminal charts. Source included, MIT licensed, tested before listing.">
 <meta property="og:url" content="https://coil-and-code.surge.sh">
 <meta property="og:image" content="https://coil-and-code.surge.sh/coil-and-code.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Coil and Code — small, honest tools">
-<meta name="twitter:description" content="Small, honest command-line tools for real work. Tested, documented, MIT licensed.">
+<meta name="twitter:description" content="Seven small, honest command-line tools for real work — CSV reports, log analysis, JSON-to-Markdown, CSV merging, Markdown TOCs, duplicate finding, terminal charts. Source included, MIT licensed, tested before listing.">
 <meta name="twitter:image" content="https://coil-and-code.surge.sh/coil-and-code.png">
 <style>
   :root {
@@ -80,6 +80,10 @@
   .cta:hover { background: #e6c552; }
   footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid #2a332c; padding-top: 1.5rem; }
   code { background: #222b24; padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.9em; }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  }
 </style>
 </head>
 <body>
@@ -96,6 +100,7 @@
   </nav>
 
   <header>
+    <h1 class="sr-only">Coil and Code — small, honest tools</h1>
     <img class="logo" src="coil-and-code.png" alt="Coil and Code">
     <div class="tagline">Small, honest tools for people who live in data.</div>
   </header>

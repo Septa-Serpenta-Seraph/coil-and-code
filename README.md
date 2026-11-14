@@ -20,7 +20,7 @@ Coil and Code is a tiny tool shop for developers who'd rather `pip install` thei
 | [find-dup](products/find-dup/) | Find duplicate files fast — size-then-hash, stdlib only | [$10](https://buy.stripe.com/bJe8wI8yG0pH7k7byWc3m06) |
 | [ascii-chart](products/ascii-chart/) | Terminal bar charts + sparklines from CSV or numbers | [$12](https://buy.stripe.com/6oU28k3em8Wd5bZgTgc3m07) |
 
-> 💡 **Bundle:** the original five tools for **$29** — [buy the bundle](https://buy.stripe.com/7sYaEQ3emegx7k79qOc3m03) · `find-dup` sold separately
+> 💡 **Bundle:** the original five tools for **$29** — [buy the bundle](https://buy.stripe.com/7sYaEQ3emegx7k79qOc3m03) · `find-dup` and `ascii-chart` sold separately
 
 ## Storefront
 
