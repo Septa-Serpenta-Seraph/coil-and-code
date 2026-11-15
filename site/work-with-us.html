@@ -7,19 +7,20 @@
 <title>Work With Us — Sunburst Sanctuary LLC</title>
 <meta name="description" content="Join Sunburst Sanctuary. We're hiring patient, respectful tech support workers for our elderly clientele in Santa Fe, NM.">
 <style>
-  :root { --bg: #0a0f0d; --surface: #111a15; --border: #1e2e25; --text: #d4d4d4; --muted: #8a8a8a; --gold: #c9a84c; --emerald: #2d6a4f; --bone: #e8dcc8; }
+  :root { --bg: #0a0f0d; --surface: #111a15; --border: #1e2e25; --text: #d4d4d4; --muted: #8a8a8a; --muted-dim: #8b968e; --gold: #c9a84c; --emerald: #2d6a4f; --emerald-text: #4aa377; --bone: #e8dcc8; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Georgia', serif; background: var(--bg); color: var(--text); line-height: 1.6; }
   nav.site-nav { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--surface); }
   .nav-main { display: flex; gap: 2rem; }
-  .nav-secondary { font-size: 0.85rem; opacity: 0.7; }
+  .nav-secondary { font-size: 0.85rem; }
+  .nav-secondary a { color: var(--muted-dim); }
   nav.site-nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; letter-spacing: 0.05em; }
   nav.site-nav a:hover { color: var(--gold); }
   nav.site-nav a.active { color: var(--gold); }
   .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
   h1 { font-size: 2.2rem; color: var(--bone); margin-bottom: 0.5rem; }
   h2 { font-size: 1.4rem; color: var(--gold); margin: 2rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-  h3 { font-size: 1.1rem; color: var(--emerald); margin: 1.5rem 0 0.5rem; }
+  h3 { font-size: 1.1rem; color: var(--emerald-text); margin: 1.5rem 0 0.5rem; }
   h4 { font-size: 1rem; color: var(--bone); margin: 1rem 0 0.5rem; }
   p { margin-bottom: 1rem; }
   .hero { text-align: center; padding: 3rem 0; border-bottom: 1px solid var(--border); }
@@ -33,9 +34,11 @@
   .apply-section h2 { margin-top: 0; }
   .form-group { margin-bottom: 1.5rem; }
   .form-group label { display: block; margin-bottom: 0.5rem; color: var(--bone); font-size: 0.95rem; }
+  fieldset.form-group { border: none; padding: 0; margin: 0 0 1.5rem; }
+  fieldset.form-group legend { display: block; margin-bottom: 0.5rem; color: var(--bone); font-size: 0.95rem; padding: 0; }
   .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 4px; color: var(--text); font-family: inherit; font-size: 0.95rem; }
   .form-group textarea { min-height: 120px; resize: vertical; }
-  .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--gold); }
+  .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--gold); }
   .checkbox-group { display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.75rem; }
   .checkbox-group input { width: auto; margin-top: 0.3rem; }
   .checkbox-group label { margin-bottom: 0; font-size: 0.9rem; }
@@ -44,20 +47,34 @@
   .note { color: var(--muted); font-size: 0.85rem; font-style: italic; margin-top: 1rem; }
   footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
   a { color: var(--gold); }
+  .skip-link {
+    position: absolute; left: -9999px; top: 0; z-index: 100;
+    background: var(--gold); color: #1a1a1a; padding: 0.6rem 1rem;
+    font-weight: bold; border-radius: 0 0 6px 0;
+  }
+  .skip-link:focus { left: 0; }
+  .skip-link:focus-visible { outline-color: var(--bone); }
+  .cta:focus-visible { outline-color: var(--bone); }
+  a:focus-visible, button:focus-visible, input:focus-visible,
+  select:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--gold); outline-offset: 2px;
+  }
 </style>
 </head>
 <body>
-<nav class="site-nav">
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="site-nav" aria-label="Primary">
     <div class="nav-main">
     <a href="/">Home</a>
     <a href="/tech-support.html">Tech Support</a>
     <a href="/about.html">About</a>
     </div>
     <div class="nav-secondary">
-    <a href="/work-with-us.html" class="active">Work With Us</a>
+    <a href="/work-with-us.html" class="active" aria-current="page">Work With Us</a>
     </div>
   </nav>
 <div class="container">
+<main id="main">
 <div class="hero">
   <h1>Work With Us</h1>
   <p>Sunburst Sanctuary is growing. We're looking for patient, kind, tech-savvy people who want to help seniors feel confident with their devices. If you believe technology should make life easier — not harder — we want to hear from you.</p>
@@ -164,15 +181,15 @@
 
     <div class="form-group">
       <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" autocomplete="name" required>
     </div>
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" autocomplete="email" required>
     </div>
     <div class="form-group">
       <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone" required>
+      <input type="tel" id="phone" name="phone" autocomplete="tel" required>
     </div>
     <div class="form-group">
       <label for="location">Location (City, State)</label>
@@ -196,8 +213,8 @@
       <label for="why">Why do you want to work with seniors?</label>
       <textarea id="why" name="why" required></textarea>
     </div>
-    <div class="form-group">
-      <label>Confirmations</label>
+    <fieldset class="form-group">
+      <legend>Confirmations</legend>
       <div class="checkbox-group">
         <input type="checkbox" id="vax" name="vax" required>
         <label for="vax">I can provide proof of current flu and COVID-19 vaccination</label>
@@ -214,11 +231,12 @@
         <input type="checkbox" id="transport" name="transport" required>
         <label for="transport">I have reliable transportation</label>
       </div>
-    </div>
+    </fieldset>
     <button type="submit" class="submit-btn">Submit Application</button>
   </form>
   <p class="note">We review applications on a rolling basis. You'll hear back within one week. Sunburst Sanctuary is an equal opportunity employer. We value patience, kindness, and a willingness to learn over formal credentials.</p>
 </div>
+</main>
 </div>
 <footer>
   <p>Sunburst Sanctuary LLC — Santa Fe, NM</p>

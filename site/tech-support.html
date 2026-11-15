@@ -16,9 +16,10 @@
     --bg: #0f1410;
     --panel: #171d18;
     --gold: #d4af37;
-    --emerald: #2e8b57;
+    --emerald: #3d9e66;
     --bone: #f2e8d5;
     --muted: #9aa59c;
+    --muted-dim: #8b968e;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -31,7 +32,8 @@
   nav.site-nav {
     display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
   .nav-main { display: flex; gap: 2rem; }
-  .nav-secondary { font-size: 0.85rem; opacity: 0.7; }
+  .nav-secondary { font-size: 0.85rem; }
+  .nav-secondary a { color: var(--muted-dim); }
     padding: 1.5rem 0; border-bottom: 1px solid #2a332c; margin-bottom: 2.5rem;
     font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase;
   }
@@ -88,14 +90,27 @@
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
   }
+  .skip-link {
+    position: absolute; left: -9999px; top: 0; z-index: 100;
+    background: var(--gold); color: #1a1a1a; padding: 0.6rem 1rem;
+    font-weight: bold; border-radius: 0 0 6px 0;
+  }
+  .skip-link:focus { left: 0; }
+  .skip-link:focus-visible { outline-color: var(--bone); }
+  .cta:focus-visible { outline-color: var(--bone); }
+  a:focus-visible, button:focus-visible, input:focus-visible,
+  select:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--gold); outline-offset: 2px;
+  }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 <div class="container">
-  <nav class="site-nav">
+  <nav class="site-nav" aria-label="Primary">
     <div class="nav-main">
     <a href="/">Home</a>
-    <a href="/tech-support.html" class="active">Tech Support</a>
+    <a href="/tech-support.html" class="active" aria-current="page">Tech Support</a>
     <a href="/about.html">About</a>
     </div>
     <div class="nav-secondary">
@@ -103,6 +118,7 @@
     </div>
   </nav>
 
+  <main id="main">
   <header>
     <img class="logo" src="coil-and-code.png" alt="Sunburst Sanctuary">
     <h1>Tech Support for Seniors</h1>
@@ -142,7 +158,7 @@
 
   <h2>Pricing</h2>
   <table class="pricing-table">
-    <tr><th>Service</th><th>Price</th></tr>
+    <tr><th scope="col">Service</th><th scope="col">Price</th></tr>
     <tr><td>Password &amp; Security Setup (60-90 min)</td><td>$85</td></tr>
     <tr><td>Tech Orientation Visit (90 min)</td><td>$75</td></tr>
     <tr><td>Device Setup &amp; Configuration (60 min)</td><td>$60</td></tr>
@@ -184,6 +200,8 @@
     <strong>"My grandkids set everything up but I don't know how to use it."</strong><br>
     That's our most common situation. We'll sit with you and teach you how to use what you already have — at your pace, in your words.
   </div>
+
+  </main>
 
   <footer>
     Sunburst Sanctuary LLC · Santa Fe, New Mexico
