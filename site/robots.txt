@@ -1,4 +1,3 @@
-# coil-and-code — crawl freely; the sitemap has the map
 User-agent: *
 Allow: /
 Sitemap: https://coil-and-code.surge.sh/sitemap.xml
