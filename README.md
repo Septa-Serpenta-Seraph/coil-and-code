@@ -26,6 +26,43 @@ Coil and Code is a tiny tool shop for developers who'd rather `pip install` thei
 
 Browse and buy at **https://coil-and-code.surge.sh** — pay with card, download the zip instantly.
 
+## Hosting & indexing note (read before touching robots.txt)
+
+`coil-and-code.surge.sh` is a **free `*.surge.sh` subdomain**, and Surge serves a fixed
+`robots.txt` on those domains by policy:
+
+```
+User-agent: *
+Disallow: /
+```
+
+Your uploaded `site/robots.txt` (`Allow: /` + sitemap) is **ignored at the canonical URL**.
+This is not a stale cache and not a broken deploy — redeploying and `surge debug bust` do
+not change it. Confirmed against the live edge 2026-11-24; policy in place since at least
+2017 (sintaxi/surge#288, owner: *"A `robots.txt` works as expected with a custom domain."*).
+
+**Diagnostic:** compare the exact path with a query-string variant. If they differ, the host
+is rewriting the canonical path and the file you edited is never served to crawlers.
+
+```bash
+curl -sS https://coil-and-code.surge.sh/robots.txt | wc -c        # 26  -> policy default
+curl -sS "https://coil-and-code.surge.sh/robots.txt?v=1" | wc -c  # 75  -> our file
+```
+
+**Consequence:** search engines are blocked site-wide until this is resolved. The recent
+SEO work (JSON-LD, sitemap, social cards) is real but unreachable by crawlers while the
+subdomain serves `Disallow: /`.
+
+**Fixes, in order of preference (all need Adora's call — none are daemon-autonomous):**
+1. Point a custom domain at Surge (CNAME `geo.surge.world`) — then `robots.txt` is ours.
+   Requires a domain we own; none is currently configured.
+2. Move the storefront to a free host that serves your own `robots.txt` (Cloudflare Pages,
+   Netlify, GitHub Pages). Note the sitemap URLs would need updating to the new host.
+3. Accept noindex and rely on direct/inbound traffic.
+
+Until then, keep `site/robots.txt` correct in the repo — it is right for any future custom
+domain or host migration — but do not expect the live subdomain to serve it.
+
 ## Why buy when the source is free?
 
 The source is here so you can vet the code — that's the point. What you're paying for is the convenience: the zip, the README, the tested-and-working promise, and the hours of edge-case fixing that already happened. If you'd rather just read the code and roll your own, that's exactly how open source works. 🤝
